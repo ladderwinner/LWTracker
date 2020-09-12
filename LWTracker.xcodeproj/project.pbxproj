@@ -10,6 +10,24 @@
 		C4CDF1E7250D17D4009DFACF /* LWTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CDF1DD250D17D4009DFACF /* LWTracker.framework */; };
 		C4CDF1EC250D17D4009DFACF /* LWTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1EB250D17D4009DFACF /* LWTrackerTests.swift */; };
 		C4CDF1EE250D17D4009DFACF /* LWTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CDF1E0250D17D4009DFACF /* LWTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4CDF209250D189A009DFACF /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1F7250D1899009DFACF /* Application.swift */; };
+		C4CDF20A250D189A009DFACF /* LWUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1F8250D1899009DFACF /* LWUserDefaults.swift */; };
+		C4CDF20B250D189A009DFACF /* EventAPISerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1F9250D1899009DFACF /* EventAPISerializer.swift */; };
+		C4CDF20C250D189A009DFACF /* MemoryQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1FA250D1899009DFACF /* MemoryQueue.swift */; };
+		C4CDF20D250D189A009DFACF /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1FB250D1899009DFACF /* OrderItem.swift */; };
+		C4CDF20E250D189A009DFACF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1FC250D1899009DFACF /* Event.swift */; };
+		C4CDF20F250D189A009DFACF /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1FD250D1899009DFACF /* Dispatcher.swift */; };
+		C4CDF210250D189A009DFACF /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1FE250D1899009DFACF /* Visitor.swift */; };
+		C4CDF211250D189A009DFACF /* URLSessionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF1FF250D1899009DFACF /* URLSessionDispatcher.swift */; };
+		C4CDF212250D189A009DFACF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF200250D1899009DFACF /* Logger.swift */; };
+		C4CDF213250D189A009DFACF /* MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF201250D1899009DFACF /* MainThread.swift */; };
+		C4CDF214250D189A009DFACF /* CustomVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF202250D1899009DFACF /* CustomVariable.swift */; };
+		C4CDF215250D189A009DFACF /* LWTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF203250D1899009DFACF /* LWTracker.swift */; };
+		C4CDF216250D189A009DFACF /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF204250D1899009DFACF /* Queue.swift */; };
+		C4CDF217250D189A009DFACF /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF205250D1899009DFACF /* Session.swift */; };
+		C4CDF218250D189A009DFACF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF206250D1899009DFACF /* Device.swift */; };
+		C4CDF219250D189A009DFACF /* Locale+HttpAcceptLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF207250D189A009DFACF /* Locale+HttpAcceptLanguage.swift */; };
+		C4CDF21A250D189A009DFACF /* CustomDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDF208250D189A009DFACF /* CustomDimension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +47,24 @@
 		C4CDF1E6250D17D4009DFACF /* LWTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CDF1EB250D17D4009DFACF /* LWTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWTrackerTests.swift; sourceTree = "<group>"; };
 		C4CDF1ED250D17D4009DFACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CDF1F7250D1899009DFACF /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = "../../lw-sdk-ios/LWTracker/Application.swift"; sourceTree = "<group>"; };
+		C4CDF1F8250D1899009DFACF /* LWUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LWUserDefaults.swift; path = "../../lw-sdk-ios/LWTracker/LWUserDefaults.swift"; sourceTree = "<group>"; };
+		C4CDF1F9250D1899009DFACF /* EventAPISerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventAPISerializer.swift; path = "../../lw-sdk-ios/LWTracker/EventAPISerializer.swift"; sourceTree = "<group>"; };
+		C4CDF1FA250D1899009DFACF /* MemoryQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemoryQueue.swift; path = "../../lw-sdk-ios/LWTracker/MemoryQueue.swift"; sourceTree = "<group>"; };
+		C4CDF1FB250D1899009DFACF /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderItem.swift; path = "../../lw-sdk-ios/LWTracker/OrderItem.swift"; sourceTree = "<group>"; };
+		C4CDF1FC250D1899009DFACF /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = "../../lw-sdk-ios/LWTracker/Event.swift"; sourceTree = "<group>"; };
+		C4CDF1FD250D1899009DFACF /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatcher.swift; path = "../../lw-sdk-ios/LWTracker/Dispatcher.swift"; sourceTree = "<group>"; };
+		C4CDF1FE250D1899009DFACF /* Visitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Visitor.swift; path = "../../lw-sdk-ios/LWTracker/Visitor.swift"; sourceTree = "<group>"; };
+		C4CDF1FF250D1899009DFACF /* URLSessionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionDispatcher.swift; path = "../../lw-sdk-ios/LWTracker/URLSessionDispatcher.swift"; sourceTree = "<group>"; };
+		C4CDF200250D1899009DFACF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = "../../lw-sdk-ios/LWTracker/Logger.swift"; sourceTree = "<group>"; };
+		C4CDF201250D1899009DFACF /* MainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainThread.swift; path = "../../lw-sdk-ios/LWTracker/MainThread.swift"; sourceTree = "<group>"; };
+		C4CDF202250D1899009DFACF /* CustomVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomVariable.swift; path = "../../lw-sdk-ios/LWTracker/CustomVariable.swift"; sourceTree = "<group>"; };
+		C4CDF203250D1899009DFACF /* LWTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LWTracker.swift; path = "../../lw-sdk-ios/LWTracker/LWTracker.swift"; sourceTree = "<group>"; };
+		C4CDF204250D1899009DFACF /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = "../../lw-sdk-ios/LWTracker/Queue.swift"; sourceTree = "<group>"; };
+		C4CDF205250D1899009DFACF /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Session.swift; path = "../../lw-sdk-ios/LWTracker/Session.swift"; sourceTree = "<group>"; };
+		C4CDF206250D1899009DFACF /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = "../../lw-sdk-ios/LWTracker/Device.swift"; sourceTree = "<group>"; };
+		C4CDF207250D189A009DFACF /* Locale+HttpAcceptLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Locale+HttpAcceptLanguage.swift"; path = "../../lw-sdk-ios/LWTracker/Locale+HttpAcceptLanguage.swift"; sourceTree = "<group>"; };
+		C4CDF208250D189A009DFACF /* CustomDimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomDimension.swift; path = "../../lw-sdk-ios/LWTracker/CustomDimension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +107,24 @@
 		C4CDF1DF250D17D4009DFACF /* LWTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C4CDF1F7250D1899009DFACF /* Application.swift */,
+				C4CDF208250D189A009DFACF /* CustomDimension.swift */,
+				C4CDF202250D1899009DFACF /* CustomVariable.swift */,
+				C4CDF206250D1899009DFACF /* Device.swift */,
+				C4CDF1FD250D1899009DFACF /* Dispatcher.swift */,
+				C4CDF1FC250D1899009DFACF /* Event.swift */,
+				C4CDF1F9250D1899009DFACF /* EventAPISerializer.swift */,
+				C4CDF207250D189A009DFACF /* Locale+HttpAcceptLanguage.swift */,
+				C4CDF200250D1899009DFACF /* Logger.swift */,
+				C4CDF203250D1899009DFACF /* LWTracker.swift */,
+				C4CDF1F8250D1899009DFACF /* LWUserDefaults.swift */,
+				C4CDF201250D1899009DFACF /* MainThread.swift */,
+				C4CDF1FA250D1899009DFACF /* MemoryQueue.swift */,
+				C4CDF1FB250D1899009DFACF /* OrderItem.swift */,
+				C4CDF204250D1899009DFACF /* Queue.swift */,
+				C4CDF205250D1899009DFACF /* Session.swift */,
+				C4CDF1FF250D1899009DFACF /* URLSessionDispatcher.swift */,
+				C4CDF1FE250D1899009DFACF /* Visitor.swift */,
 				C4CDF1E0250D17D4009DFACF /* LWTracker.h */,
 				C4CDF1E1250D17D4009DFACF /* Info.plist */,
 			);
@@ -148,6 +202,7 @@
 				TargetAttributes = {
 					C4CDF1DC250D17D4009DFACF = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 					C4CDF1E5250D17D4009DFACF = {
 						CreatedOnToolsVersion = 11.7;
@@ -195,6 +250,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CDF210250D189A009DFACF /* Visitor.swift in Sources */,
+				C4CDF21A250D189A009DFACF /* CustomDimension.swift in Sources */,
+				C4CDF216250D189A009DFACF /* Queue.swift in Sources */,
+				C4CDF209250D189A009DFACF /* Application.swift in Sources */,
+				C4CDF20A250D189A009DFACF /* LWUserDefaults.swift in Sources */,
+				C4CDF20D250D189A009DFACF /* OrderItem.swift in Sources */,
+				C4CDF217250D189A009DFACF /* Session.swift in Sources */,
+				C4CDF213250D189A009DFACF /* MainThread.swift in Sources */,
+				C4CDF218250D189A009DFACF /* Device.swift in Sources */,
+				C4CDF20C250D189A009DFACF /* MemoryQueue.swift in Sources */,
+				C4CDF212250D189A009DFACF /* Logger.swift in Sources */,
+				C4CDF20F250D189A009DFACF /* Dispatcher.swift in Sources */,
+				C4CDF214250D189A009DFACF /* CustomVariable.swift in Sources */,
+				C4CDF20E250D189A009DFACF /* Event.swift in Sources */,
+				C4CDF20B250D189A009DFACF /* EventAPISerializer.swift in Sources */,
+				C4CDF215250D189A009DFACF /* LWTracker.swift in Sources */,
+				C4CDF219250D189A009DFACF /* Locale+HttpAcceptLanguage.swift in Sources */,
+				C4CDF211250D189A009DFACF /* URLSessionDispatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +413,7 @@
 		C4CDF1F2250D17D4009DFACF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ladderwinner.LWTracker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +438,7 @@
 		C4CDF1F3250D17D4009DFACF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +462,7 @@
 		C4CDF1F5250D17D4009DFACF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LWTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +480,7 @@
 		C4CDF1F6250D17D4009DFACF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LWTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
