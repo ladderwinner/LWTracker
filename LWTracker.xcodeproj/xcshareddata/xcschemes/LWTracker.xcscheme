@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1030"
+   LastUpgradeVersion = "1170"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C44024BF250DD9CC009301AA"
-               BuildableName = "MatomoTracker.framework"
-               BlueprintName = "MatomoTracker"
-               ReferencedContainer = "container:MatomoTracker.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C44024C8250DD9CC009301AA"
-               BuildableName = "MatomoTrackerTests.xctest"
-               BlueprintName = "MatomoTrackerTests"
-               ReferencedContainer = "container:MatomoTracker.xcodeproj">
+               BlueprintIdentifier = "C4160952250DECD200FA4B31"
+               BuildableName = "LWTracker.framework"
+               BlueprintName = "LWTracker"
+               ReferencedContainer = "container:LWTracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,29 +29,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO"
-            parallelizable = "YES"
-            testExecutionOrdering = "random">
+            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C44024C8250DD9CC009301AA"
-               BuildableName = "MatomoTrackerTests.xctest"
-               BlueprintName = "MatomoTrackerTests"
-               ReferencedContainer = "container:MatomoTracker.xcodeproj">
+               BlueprintIdentifier = "C416095B250DECD200FA4B31"
+               BuildableName = "LWTrackerTests.xctest"
+               BlueprintName = "LWTrackerTests"
+               ReferencedContainer = "container:LWTracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C44024BF250DD9CC009301AA"
-            BuildableName = "MatomoTracker.framework"
-            BlueprintName = "MatomoTracker"
-            ReferencedContainer = "container:MatomoTracker.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -77,17 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C44024BF250DD9CC009301AA"
-            BuildableName = "MatomoTracker.framework"
-            BlueprintName = "MatomoTracker"
-            ReferencedContainer = "container:MatomoTracker.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -98,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C44024BF250DD9CC009301AA"
-            BuildableName = "MatomoTracker.framework"
-            BlueprintName = "MatomoTracker"
-            ReferencedContainer = "container:MatomoTracker.xcodeproj">
+            BlueprintIdentifier = "C4160952250DECD200FA4B31"
+            BuildableName = "LWTracker.framework"
+            BlueprintName = "LWTracker"
+            ReferencedContainer = "container:LWTracker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
@@ -113,4 +75,3 @@
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
-

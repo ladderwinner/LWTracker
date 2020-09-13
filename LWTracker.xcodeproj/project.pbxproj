@@ -7,81 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C44024CA250DD9CC009301AA /* LWTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44024C0250DD9CC009301AA /* LWTracker.framework */; };
-		C44024CF250DD9CC009301AA /* LWTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44024CE250DD9CC009301AA /* LWTrackerTests.swift */; };
-		C44024D1250DD9CC009301AA /* LWTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C44024C3250DD9CC009301AA /* LWTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C416095D250DECD200FA4B31 /* LWTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4160953250DECD200FA4B31 /* LWTracker.framework */; };
+		C4160962250DECD200FA4B31 /* LWTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4160961250DECD200FA4B31 /* LWTrackerTests.swift */; };
+		C4160964250DECD200FA4B31 /* LWTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C4160956250DECD200FA4B31 /* LWTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4BCC6B9250DEF6F00920473 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6A7250DEF6F00920473 /* Application.swift */; };
+		C4BCC6BA250DEF6F00920473 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6A8250DEF6F00920473 /* Event.swift */; };
+		C4BCC6BB250DEF6F00920473 /* MemoryQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6A9250DEF6F00920473 /* MemoryQueue.swift */; };
+		C4BCC6BC250DEF6F00920473 /* CustomDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6AA250DEF6F00920473 /* CustomDimension.swift */; };
+		C4BCC6BD250DEF6F00920473 /* LWUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6AB250DEF6F00920473 /* LWUserDefaults.swift */; };
+		C4BCC6BE250DEF6F00920473 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6AC250DEF6F00920473 /* Queue.swift */; };
+		C4BCC6BF250DEF6F00920473 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6AD250DEF6F00920473 /* Dispatcher.swift */; };
+		C4BCC6C0250DEF6F00920473 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6AE250DEF6F00920473 /* OrderItem.swift */; };
+		C4BCC6C1250DEF6F00920473 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6AF250DEF6F00920473 /* Visitor.swift */; };
+		C4BCC6C2250DEF6F00920473 /* URLSessionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B0250DEF6F00920473 /* URLSessionDispatcher.swift */; };
+		C4BCC6C3250DEF6F00920473 /* EventAPISerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B1250DEF6F00920473 /* EventAPISerializer.swift */; };
+		C4BCC6C4250DEF6F00920473 /* MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B2250DEF6F00920473 /* MainThread.swift */; };
+		C4BCC6C5250DEF6F00920473 /* LWTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B3250DEF6F00920473 /* LWTracker.swift */; };
+		C4BCC6C6250DEF6F00920473 /* Locale+HttpAcceptLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B4250DEF6F00920473 /* Locale+HttpAcceptLanguage.swift */; };
+		C4BCC6C7250DEF6F00920473 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B5250DEF6F00920473 /* Session.swift */; };
+		C4BCC6C8250DEF6F00920473 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B6250DEF6F00920473 /* Logger.swift */; };
+		C4BCC6C9250DEF6F00920473 /* CustomVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B7250DEF6F00920473 /* CustomVariable.swift */; };
+		C4BCC6CA250DEF6F00920473 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCC6B8250DEF6F00920473 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C44024CB250DD9CC009301AA /* PBXContainerItemProxy */ = {
+		C416095E250DECD200FA4B31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C44024B7250DD9CC009301AA /* Project object */;
+			containerPortal = C416094A250DECD200FA4B31 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C44024BF250DD9CC009301AA;
+			remoteGlobalIDString = C4160952250DECD200FA4B31;
 			remoteInfo = LWTracker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C44024C0250DD9CC009301AA /* LWTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44024C3250DD9CC009301AA /* LWTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTracker.h; sourceTree = "<group>"; };
-		C44024C4250DD9CC009301AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C44024C9250DD9CC009301AA /* LWTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44024CE250DD9CC009301AA /* LWTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWTrackerTests.swift; sourceTree = "<group>"; };
-		C44024D0250DD9CC009301AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4160953250DECD200FA4B31 /* LWTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4160956250DECD200FA4B31 /* LWTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTracker.h; sourceTree = "<group>"; };
+		C4160957250DECD200FA4B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C416095C250DECD200FA4B31 /* LWTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4160961250DECD200FA4B31 /* LWTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWTrackerTests.swift; sourceTree = "<group>"; };
+		C4160963250DECD200FA4B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BCC6A7250DEF6F00920473 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		C4BCC6A8250DEF6F00920473 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C4BCC6A9250DEF6F00920473 /* MemoryQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryQueue.swift; sourceTree = "<group>"; };
+		C4BCC6AA250DEF6F00920473 /* CustomDimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDimension.swift; sourceTree = "<group>"; };
+		C4BCC6AB250DEF6F00920473 /* LWUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWUserDefaults.swift; sourceTree = "<group>"; };
+		C4BCC6AC250DEF6F00920473 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		C4BCC6AD250DEF6F00920473 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		C4BCC6AE250DEF6F00920473 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		C4BCC6AF250DEF6F00920473 /* Visitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		C4BCC6B0250DEF6F00920473 /* URLSessionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionDispatcher.swift; sourceTree = "<group>"; };
+		C4BCC6B1250DEF6F00920473 /* EventAPISerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventAPISerializer.swift; sourceTree = "<group>"; };
+		C4BCC6B2250DEF6F00920473 /* MainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainThread.swift; sourceTree = "<group>"; };
+		C4BCC6B3250DEF6F00920473 /* LWTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWTracker.swift; sourceTree = "<group>"; };
+		C4BCC6B4250DEF6F00920473 /* Locale+HttpAcceptLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+HttpAcceptLanguage.swift"; sourceTree = "<group>"; };
+		C4BCC6B5250DEF6F00920473 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		C4BCC6B6250DEF6F00920473 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		C4BCC6B7250DEF6F00920473 /* CustomVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariable.swift; sourceTree = "<group>"; };
+		C4BCC6B8250DEF6F00920473 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C44024BD250DD9CC009301AA /* Frameworks */ = {
+		C4160950250DECD200FA4B31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C44024C6250DD9CC009301AA /* Frameworks */ = {
+		C4160959250DECD200FA4B31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44024CA250DD9CC009301AA /* LWTracker.framework in Frameworks */,
+				C416095D250DECD200FA4B31 /* LWTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C44024B6250DD9CC009301AA = {
+		C4160949250DECD200FA4B31 = {
 			isa = PBXGroup;
 			children = (
-				C44024C2250DD9CC009301AA /* LWTracker */,
-				C44024CD250DD9CC009301AA /* LWTrackerTests */,
-				C44024C1250DD9CC009301AA /* Products */,
+				C4160955250DECD200FA4B31 /* LWTracker */,
+				C4160960250DECD200FA4B31 /* LWTrackerTests */,
+				C4160954250DECD200FA4B31 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C44024C1250DD9CC009301AA /* Products */ = {
+		C4160954250DECD200FA4B31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C44024C0250DD9CC009301AA /* LWTracker.framework */,
-				C44024C9250DD9CC009301AA /* LWTrackerTests.xctest */,
+				C4160953250DECD200FA4B31 /* LWTracker.framework */,
+				C416095C250DECD200FA4B31 /* LWTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C44024C2250DD9CC009301AA /* LWTracker */ = {
+		C4160955250DECD200FA4B31 /* LWTracker */ = {
 			isa = PBXGroup;
 			children = (
-				C44024C3250DD9CC009301AA /* LWTracker.h */,
-				C44024C4250DD9CC009301AA /* Info.plist */,
+				C4BCC6A7250DEF6F00920473 /* Application.swift */,
+				C4BCC6AA250DEF6F00920473 /* CustomDimension.swift */,
+				C4BCC6B7250DEF6F00920473 /* CustomVariable.swift */,
+				C4BCC6B8250DEF6F00920473 /* Device.swift */,
+				C4BCC6AD250DEF6F00920473 /* Dispatcher.swift */,
+				C4BCC6A8250DEF6F00920473 /* Event.swift */,
+				C4BCC6B1250DEF6F00920473 /* EventAPISerializer.swift */,
+				C4BCC6B4250DEF6F00920473 /* Locale+HttpAcceptLanguage.swift */,
+				C4BCC6B6250DEF6F00920473 /* Logger.swift */,
+				C4BCC6B3250DEF6F00920473 /* LWTracker.swift */,
+				C4BCC6AB250DEF6F00920473 /* LWUserDefaults.swift */,
+				C4BCC6B2250DEF6F00920473 /* MainThread.swift */,
+				C4BCC6A9250DEF6F00920473 /* MemoryQueue.swift */,
+				C4BCC6AE250DEF6F00920473 /* OrderItem.swift */,
+				C4BCC6AC250DEF6F00920473 /* Queue.swift */,
+				C4BCC6B5250DEF6F00920473 /* Session.swift */,
+				C4BCC6B0250DEF6F00920473 /* URLSessionDispatcher.swift */,
+				C4BCC6AF250DEF6F00920473 /* Visitor.swift */,
+				C4160956250DECD200FA4B31 /* LWTracker.h */,
+				C4160957250DECD200FA4B31 /* Info.plist */,
 			);
 			path = LWTracker;
 			sourceTree = "<group>";
 		};
-		C44024CD250DD9CC009301AA /* LWTrackerTests */ = {
+		C4160960250DECD200FA4B31 /* LWTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				C44024CE250DD9CC009301AA /* LWTrackerTests.swift */,
-				C44024D0250DD9CC009301AA /* Info.plist */,
+				C4160961250DECD200FA4B31 /* LWTrackerTests.swift */,
+				C4160963250DECD200FA4B31 /* Info.plist */,
 			);
 			path = LWTrackerTests;
 			sourceTree = "<group>";
@@ -89,25 +143,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C44024BB250DD9CC009301AA /* Headers */ = {
+		C416094E250DECD200FA4B31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44024D1250DD9CC009301AA /* LWTracker.h in Headers */,
+				C4160964250DECD200FA4B31 /* LWTracker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C44024BF250DD9CC009301AA /* LWTracker */ = {
+		C4160952250DECD200FA4B31 /* LWTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C44024D4250DD9CC009301AA /* Build configuration list for PBXNativeTarget "LWTracker" */;
+			buildConfigurationList = C4160967250DECD200FA4B31 /* Build configuration list for PBXNativeTarget "LWTracker" */;
 			buildPhases = (
-				C44024BB250DD9CC009301AA /* Headers */,
-				C44024BC250DD9CC009301AA /* Sources */,
-				C44024BD250DD9CC009301AA /* Frameworks */,
-				C44024BE250DD9CC009301AA /* Resources */,
+				C416094E250DECD200FA4B31 /* Headers */,
+				C416094F250DECD200FA4B31 /* Sources */,
+				C4160950250DECD200FA4B31 /* Frameworks */,
+				C4160951250DECD200FA4B31 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,46 +169,47 @@
 			);
 			name = LWTracker;
 			productName = LWTracker;
-			productReference = C44024C0250DD9CC009301AA /* LWTracker.framework */;
+			productReference = C4160953250DECD200FA4B31 /* LWTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C44024C8250DD9CC009301AA /* LWTrackerTests */ = {
+		C416095B250DECD200FA4B31 /* LWTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C44024D7250DD9CC009301AA /* Build configuration list for PBXNativeTarget "LWTrackerTests" */;
+			buildConfigurationList = C416096A250DECD200FA4B31 /* Build configuration list for PBXNativeTarget "LWTrackerTests" */;
 			buildPhases = (
-				C44024C5250DD9CC009301AA /* Sources */,
-				C44024C6250DD9CC009301AA /* Frameworks */,
-				C44024C7250DD9CC009301AA /* Resources */,
+				C4160958250DECD200FA4B31 /* Sources */,
+				C4160959250DECD200FA4B31 /* Frameworks */,
+				C416095A250DECD200FA4B31 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C44024CC250DD9CC009301AA /* PBXTargetDependency */,
+				C416095F250DECD200FA4B31 /* PBXTargetDependency */,
 			);
 			name = LWTrackerTests;
 			productName = LWTrackerTests;
-			productReference = C44024C9250DD9CC009301AA /* LWTrackerTests.xctest */;
+			productReference = C416095C250DECD200FA4B31 /* LWTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C44024B7250DD9CC009301AA /* Project object */ = {
+		C416094A250DECD200FA4B31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = LadderWinner;
 				TargetAttributes = {
-					C44024BF250DD9CC009301AA = {
+					C4160952250DECD200FA4B31 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
-					C44024C8250DD9CC009301AA = {
+					C416095B250DECD200FA4B31 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = C44024BA250DD9CC009301AA /* Build configuration list for PBXProject "LWTracker" */;
+			buildConfigurationList = C416094D250DECD200FA4B31 /* Build configuration list for PBXProject "LWTracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,26 +217,26 @@
 				en,
 				Base,
 			);
-			mainGroup = C44024B6250DD9CC009301AA;
-			productRefGroup = C44024C1250DD9CC009301AA /* Products */;
+			mainGroup = C4160949250DECD200FA4B31;
+			productRefGroup = C4160954250DECD200FA4B31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C44024BF250DD9CC009301AA /* LWTracker */,
-				C44024C8250DD9CC009301AA /* LWTrackerTests */,
+				C4160952250DECD200FA4B31 /* LWTracker */,
+				C416095B250DECD200FA4B31 /* LWTrackerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C44024BE250DD9CC009301AA /* Resources */ = {
+		C4160951250DECD200FA4B31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C44024C7250DD9CC009301AA /* Resources */ = {
+		C416095A250DECD200FA4B31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,33 +246,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C44024BC250DD9CC009301AA /* Sources */ = {
+		C416094F250DECD200FA4B31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BCC6BA250DEF6F00920473 /* Event.swift in Sources */,
+				C4BCC6C3250DEF6F00920473 /* EventAPISerializer.swift in Sources */,
+				C4BCC6C2250DEF6F00920473 /* URLSessionDispatcher.swift in Sources */,
+				C4BCC6CA250DEF6F00920473 /* Device.swift in Sources */,
+				C4BCC6BE250DEF6F00920473 /* Queue.swift in Sources */,
+				C4BCC6C4250DEF6F00920473 /* MainThread.swift in Sources */,
+				C4BCC6C7250DEF6F00920473 /* Session.swift in Sources */,
+				C4BCC6BD250DEF6F00920473 /* LWUserDefaults.swift in Sources */,
+				C4BCC6C8250DEF6F00920473 /* Logger.swift in Sources */,
+				C4BCC6BC250DEF6F00920473 /* CustomDimension.swift in Sources */,
+				C4BCC6C9250DEF6F00920473 /* CustomVariable.swift in Sources */,
+				C4BCC6BF250DEF6F00920473 /* Dispatcher.swift in Sources */,
+				C4BCC6C0250DEF6F00920473 /* OrderItem.swift in Sources */,
+				C4BCC6B9250DEF6F00920473 /* Application.swift in Sources */,
+				C4BCC6C1250DEF6F00920473 /* Visitor.swift in Sources */,
+				C4BCC6C6250DEF6F00920473 /* Locale+HttpAcceptLanguage.swift in Sources */,
+				C4BCC6C5250DEF6F00920473 /* LWTracker.swift in Sources */,
+				C4BCC6BB250DEF6F00920473 /* MemoryQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C44024C5250DD9CC009301AA /* Sources */ = {
+		C4160958250DECD200FA4B31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44024CF250DD9CC009301AA /* LWTrackerTests.swift in Sources */,
+				C4160962250DECD200FA4B31 /* LWTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C44024CC250DD9CC009301AA /* PBXTargetDependency */ = {
+		C416095F250DECD200FA4B31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C44024BF250DD9CC009301AA /* LWTracker */;
-			targetProxy = C44024CB250DD9CC009301AA /* PBXContainerItemProxy */;
+			target = C4160952250DECD200FA4B31 /* LWTracker */;
+			targetProxy = C416095E250DECD200FA4B31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C44024D2250DD9CC009301AA /* Debug */ = {
+		C4160965250DECD200FA4B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		C44024D3250DD9CC009301AA /* Release */ = {
+		C4160966250DECD200FA4B31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,9 +410,10 @@
 			};
 			name = Release;
 		};
-		C44024D5250DD9CC009301AA /* Debug */ = {
+		C4160968250DECD200FA4B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,14 +429,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ladderwinner.LWTracker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C44024D6250DD9CC009301AA /* Release */ = {
+		C4160969250DECD200FA4B31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -383,9 +459,10 @@
 			};
 			name = Release;
 		};
-		C44024D8250DD9CC009301AA /* Debug */ = {
+		C416096B250DECD200FA4B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LWTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -400,9 +477,10 @@
 			};
 			name = Debug;
 		};
-		C44024D9250DD9CC009301AA /* Release */ = {
+		C416096C250DECD200FA4B31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LWTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,34 +498,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C44024BA250DD9CC009301AA /* Build configuration list for PBXProject "LWTracker" */ = {
+		C416094D250DECD200FA4B31 /* Build configuration list for PBXProject "LWTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C44024D2250DD9CC009301AA /* Debug */,
-				C44024D3250DD9CC009301AA /* Release */,
+				C4160965250DECD200FA4B31 /* Debug */,
+				C4160966250DECD200FA4B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C44024D4250DD9CC009301AA /* Build configuration list for PBXNativeTarget "LWTracker" */ = {
+		C4160967250DECD200FA4B31 /* Build configuration list for PBXNativeTarget "LWTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C44024D5250DD9CC009301AA /* Debug */,
-				C44024D6250DD9CC009301AA /* Release */,
+				C4160968250DECD200FA4B31 /* Debug */,
+				C4160969250DECD200FA4B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C44024D7250DD9CC009301AA /* Build configuration list for PBXNativeTarget "LWTrackerTests" */ = {
+		C416096A250DECD200FA4B31 /* Build configuration list for PBXNativeTarget "LWTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C44024D8250DD9CC009301AA /* Debug */,
-				C44024D9250DD9CC009301AA /* Release */,
+				C416096B250DECD200FA4B31 /* Debug */,
+				C416096C250DECD200FA4B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C44024B7250DD9CC009301AA /* Project object */;
+	rootObject = C416094A250DECD200FA4B31 /* Project object */;
 }
